@@ -2,9 +2,9 @@
 
 # ---- compiler and flags ------------------------------------------------------
 
-NAME = megaphone
+NAME = Phonebook
 
-SRC = megaphone.cpp \
+SRC = Contact.cpp main.cpp Phonebook.cpp \
 
 CXX = c++ 
 

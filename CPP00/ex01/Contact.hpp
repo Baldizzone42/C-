@@ -20,8 +20,10 @@
 class Contact
 {
 	private:
-		std::string info[4];
+		std::string info[5];
 	public:
+	Contact();
+	~Contact();
 };
 
 #endif

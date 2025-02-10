@@ -25,6 +25,8 @@ class Phonebook
 		void add_contact();
 		void loop();
 		void searching();
+		Phonebook();
+		~Phonebook();
 };
 
 #endif

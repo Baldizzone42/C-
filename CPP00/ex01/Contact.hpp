@@ -22,6 +22,10 @@ class Contact
 	private:
 		std::string info[5];
 	public:
+	void setData(std::string str, int i);
+	void getData();
+	std::string getInfo(int i);
+	void getFullData();
 	Contact();
 	~Contact();
 };

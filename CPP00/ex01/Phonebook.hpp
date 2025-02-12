@@ -15,15 +15,20 @@
 
 # include <iostream>
 # include <string>
+# include <iomanip>
+# include <cstdlib>
 # include "Contact.hpp"
 
 class Phonebook
 {
 	private:
 		Contact contact[8];
+		int total_contacts;
+		int index;
+		bool full_contacts;
+
 	public:
 		void add_contact();
-		void loop();
 		void searching();
 		Phonebook();
 		~Phonebook();

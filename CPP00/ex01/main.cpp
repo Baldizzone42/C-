@@ -11,6 +11,7 @@
 /* ************************************************************************** */
 
 #include "Phonebook.hpp"
+#include "Contact.hpp"
 
 int main(int argc, char **argv)
 {
@@ -24,7 +25,7 @@ int main(int argc, char **argv)
 		std::cout << "Insert a command: | ADD | SEARCH | EXIT" << std::endl;
 		std::getline(std::cin, line);
 		if(std::cin.eof())
-			return (std::cout << "End of line (eof) Detected, exit.."), 1;
+			return (std::cout << "End of line (eof) Detected, exiting.."), 1;
 		if (line == "ADD")
 			book.add_contact();
 		else if (line == "SEARCH")

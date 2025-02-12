@@ -4,7 +4,9 @@
 
 NAME = Phonebook
 
-SRC = Contact.cpp main.cpp Phonebook.cpp \
+SRC = Phonebook.cpp \
+	Contact.cpp \
+ 	main.cpp \
 
 CXX = c++ 
 

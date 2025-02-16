@@ -2,10 +2,9 @@
 
 # ---- compiler and flags ------------------------------------------------------
 
-NAME = Harl
+NAME = Claptrapping
 
-SRC = main.cpp \
-		Harl.cpp\
+SRC = main.cpp ClapTrap.cpp\
 
 CXX = c++ 
 

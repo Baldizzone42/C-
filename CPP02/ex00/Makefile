@@ -2,10 +2,9 @@
 
 # ---- compiler and flags ------------------------------------------------------
 
-NAME = Harl
+NAME = Fixed
 
-SRC = main.cpp \
-		Harl.cpp\
+SRC = main.cpp Fixed.cpp\
 
 CXX = c++ 
 
